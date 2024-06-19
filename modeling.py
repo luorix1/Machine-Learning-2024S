@@ -5,7 +5,7 @@ from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 import torch.nn.init as init
 
 
-# Models exclusively for BASELINE TASK
+# Custom CNN definition
 class VGGBlock(nn.Module):
     def __init__(self, in_channels, out_channels):
         super(VGGBlock, self).__init__()
